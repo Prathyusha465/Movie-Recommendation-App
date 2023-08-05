@@ -46,8 +46,8 @@ input{
     color: #fff;
 }
 .thumbnail{
-    height: 98%;
-    width: 98%;
+    height: 90%;
+    width: 90%;
     border-radius: 19px;
 }
 .column{
@@ -57,7 +57,10 @@ input{
 }
 .card{
     border-radius: 19px;
-    padding: 10px;
+    padding: 8px;
     text-align: center;
     background-color: #151f30;
+}
+.extra{
+    height: 30px;
 }

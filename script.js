@@ -25,8 +25,12 @@ function returnMovies(url){
             image.setAttribute('class','thumbnail');
             image.setAttribute('id','image');
 
+            const ediv=document.createElement('div');
+
             const title=document.createElement('h3');
             title.setAttribute('id','title');
+            ediv.appendChild(title);
+            ediv.setAttribute('class','extra')
             
             const center=document.createElement('center');
             title.innerHTML=`${element.title}`;
@@ -34,7 +38,7 @@ function returnMovies(url){
 
             center.appendChild(image);
             div_card.appendChild(center);
-            div_card.appendChild(title);
+            div_card.appendChild(ediv);
             div_column.appendChild(div_card);
             div_row.appendChild(div_column);
             
